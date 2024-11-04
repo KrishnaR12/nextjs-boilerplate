@@ -1,12 +1,17 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 p-6 flex flex-col items-center justify-center">
       {/* Hero Section */}
       <section className="text-center mb-12">
-        <h1 className="text-5xl font-bold text-gray-800 mb-4">Hi, I&apos;m Krishna Ramani</h1>
-        <p className="text-xl text-gray-600 mb-6">I&apos;m a Product Manager & Software Engineer who builds impactful digital solutions.</p>
+        <h1 className="text-5xl font-bold text-gray-800 mb-4">
+          Hi, I&apos;m Krishna Ramani
+        </h1>
+        <p className="text-xl text-gray-600 mb-6">
+          I&apos;m a Product Manager & Software Engineer who builds impactful
+          digital solutions.
+        </p>
         <a
           href="#portfolio"
           className="bg-blue-600 text-white py-2 px-6 rounded-full hover:bg-blue-700 transition-colors"
